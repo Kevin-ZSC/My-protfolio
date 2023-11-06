@@ -1,0 +1,151 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100;1,600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;  
+}
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height:17vh;
+
+}
+
+.nav-links {
+    gap:2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: blanchedalmond;
+}
+
+ a:hover {
+    color: black;
+    text-decoration:underline;
+    text-underline-offset: 1rem;
+    text-decoration-color:black;
+}
+
+.logo {
+    font-size: 2rem;
+    color:black;
+}
+
+.logo:hover { 
+    cursor:default;
+}
+
+#hamburger-nav {
+    display: none;
+}
+
+ .bar-close {
+    width: 30px;
+}
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon {
+    
+    cursor: pointer;
+}
+
+.hamburger-bar {
+    background-color: white;
+    width: 30px;
+}
+
+.menu-links {
+    position: absolute;
+    top:100%;
+    right:0;
+    background-color: white;
+    width: auto;
+    max-height: 0;
+    overflow: hidden;
+    padding: 15px;
+    transition: all 0.3 ease-in-out;
+    list-style: none;
+    text-decoration: none;
+    text-decoration-line: none;
+    display: none;
+}
+
+.menu-links a:hover {
+    text-decoration: none;
+    text-decoration-line: none;   
+    font-size: larger;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.hi {
+    font-size: 1.5rem;
+}
+.intro {
+    color:black;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.head {
+    width:200px;    
+    height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+section {
+    margin-top: 100px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    padding: 10px 50px;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.github ,.linkedin {
+    width: 50px;
+    height: 50px;
+}
+
+#pic {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-top: 30px;
+}

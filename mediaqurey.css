@@ -1,0 +1,42 @@
+@media screen and (max-width:750px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .bar-close{
+        display: none;
+    }
+
+    .menu-links.open {
+        max-height: 300px;
+        display: block;
+    }
+    
+    .hamburger-bar.open {
+        display: none;
+    }
+
+    .bar-close.close {
+        display: block;
+    }
+
+    section {
+        display: block;
+        margin-top: -5px;
+    }
+    
+    #text-part {
+        padding: 0 100px;
+        display: block;
+        margin-top: 20px;
+    }
+    #pic {
+        margin-top: 30px
+    }
+    
+ 
+}

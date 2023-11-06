@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqurey.css">
+    <title>SC' Portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sanchen</div>
+        <div>
+            <ul class="nav-links">
+                <li> <a href= "#home">HOME</a></li>
+                <li> <a href= "#about">ABOUT</a></li>
+                <li> <a href= "project">PROJECT</a></li>
+                <li> <a href= "contact">CONTACT</a></li>
+            </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sanchen</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon">
+                <img src="/images/icons8-hamburger-menu-50.png" alt="" class="hamburger-bar" onclick="toggleMenu()">
+                <img src="/images/icons8-close-50.png" alt="" class="bar-close" onclick="toggleMenu()">
+            </div>
+            <div class="menu-links">
+                <li> <a href= "#home" onclick="toggleMenu()">HOME</a></li>
+                <li> <a href= "#about" onclick="toggleMenu()">ABOUT</a></li>
+                <li> <a href= "#project" onclick="toggleMenu()">PROJECT</a></li>
+                <li> <a href= "#contact" onclick="toggleMenu()">CONTACT</a></li>
+            </div>
+        </div>
+    </nav>
+<section>
+    <img src="/images/800px_COLOURBOX25030932.jpg" alt="" class="head">
+    <div id="text-part">
+         <div>
+            <p class="hi">Hi, I'm </p>
+            <h1 class="name">Zhang Sanchen</h1>
+            <p class="intro">Frontend Developer</p>
+            <button>Download CV</button>
+            
+        </div>
+        <div id="pic">
+            <img src="/images/iconfinder-github-4555889_121361.png" alt="" class="github">
+            <img src="/images/linkedin-icon-1024x1024-z5dvl47c.png" alt="" class="linkedin">
+        </div>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>

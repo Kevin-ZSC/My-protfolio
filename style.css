@@ -139,6 +139,12 @@ section {
     margin-top:20px;
 }
 
+.Cv:hover {
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
+
 .CI {
     background-color: rgb(68, 66, 66);
     color:white;
@@ -148,11 +154,31 @@ section {
     margin-top:20px;
 }
 
-.github ,.linkedin {
-    width: 35px;
-    height: 35px;
+.CI:hover {
+    cursor: pointer;
+    background-color: white;
+    color:black
 }
 
+.github ,.linkedin{
+    width: 32px;
+    height: 32px;
+}
+
+.email {
+    width: 80px;
+    height: 80px;
+    /* margin-top: -5px; */
+
+}
+.linkedin-c {
+    width: 65px;
+    height: 65px;
+}
+
+.github,.linkedin:hover {
+    cursor: pointer;
+}
 #pic {
     display: flex;
     justify-content: center;
@@ -160,7 +186,7 @@ section {
     margin-top: 30px;
 }
 
-#About {
+#about {
     display: block;
     padding:0 200px;
 }
@@ -184,7 +210,7 @@ section {
 }
 
 .b1, .b2{
-    width: 220px;
+    width: 240px;
     height: 140px;
     padding: 10px;
     border:1px solid black;
@@ -196,4 +222,128 @@ section {
 .exp, .edu {
     width:30px;
     height:30px;
+}
+
+.text-a {
+    padding: 0 50px
+}
+
+.arr {
+    width:30px;
+    position: absolute;
+    right:200px;
+    bottom: -450px;
+}
+
+.checkmark {
+    width: 30px;
+}
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pro-content {
+    width: 1000px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.edetail {
+    display: flex;  
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+h5 {
+    
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+.pro-detail {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(3, 1fr); 
+
+  }
+  
+  h4 {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: rgb(68, 66, 66);
+  }
+
+#project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.project-content {
+    display: flex;
+    gap: 20px;
+}
+
+.each-project {
+    width:400px;
+    height:550px;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 10px;  
+}
+
+.pro-1,.pro-2,.pro-3 {
+    width:380px;
+    height:360px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.gh,.ld {
+    background-color: white;
+    width: 150px;
+    height:60px;
+    color: rgb(68, 66, 66);
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-right:10px;
+    margin-top:20px;
+}
+
+.gh:hover {
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
+
+.ld:hover {
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }

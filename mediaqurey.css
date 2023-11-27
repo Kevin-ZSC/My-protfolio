@@ -35,8 +35,44 @@
         margin-top: 20px;
     }
     #pic {
-        margin-top: 30px
+        margin-top: 30px;
     }
     
+    .btn {
+        display: flex;
+    }
+
+    .Cv,.CI {
+        padding: 10px 20px;
+    }
  
+    #About {
+        margin-top: 50px;
+        padding:0
+    }
+    
+    .section-1 {
+        display: inline-block;
+        
+    }
+
+    .panda {
+        margin:-20px;
+        width:250px;
+        height:250px;
+    }
+
+    .b1,.b2 {
+      width:170px;
+      height:180px;
+    }
+
+    .text-a {
+        text-align:justify;
+        margin-top:-15px;
+    }
+
+    .arr {
+        display: none;
+    }
 }

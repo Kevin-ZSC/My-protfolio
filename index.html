@@ -14,8 +14,8 @@
             <ul class="nav-links">
                 <li> <a href= "#home">HOME</a></li>
                 <li> <a href= "#about">ABOUT</a></li>
-                <li> <a href= "project">PROJECT</a></li>
-                <li> <a href= "contact">CONTACT</a></li>
+                <li> <a href= "#project">PROJECT</a></li>
+                <li> <a href= "#contact">CONTACT</a></li>
             </ul>
     </nav>
     <nav id="hamburger-nav">
@@ -33,25 +33,26 @@
             </div>
         </div>
     </nav>
-<section>
+<section id="home">
     <img src="/images/800px_COLOURBOX25030932.jpg" alt="" class="head">
     <div id="text-part">
          <div>
             <p class="hi">Hollo, I'm </p>
             <h1 class="name">Zhang Sanchen</h1>
             <p class="intro">Frontend Developer</p>
-            <button class="Cv">Download CV</button>
-            <button class="CI">Contact Info</button>
-            
+            <div class="btn">
+                <button class="Cv"><a href="My_CV.html">Download CV</a></button>
+                <button class="CI">Contact Info</button>
+            </div>     
         </div>
         <div id="pic">
-            <img src="/images/github.png" alt="" class="github">
-            <img src="/images/linkedin.png" alt="" class="linkedin">
+           <a href="https://github.com/Kevin-ZSC?tab=repositories"><img src="/images/github.png" alt="" class="github"></a> 
+           <a href="https://www.linkedin.com/in/sanchen-zhang-394a332a1/"><img src="/images/linkedin.png" alt="" class="linkedin"></a>
         </div>
     </div>
 </section>
 
-<section id="About">
+<section id="about">
     <div class="section-0">
         <p>GET to know more</p>
         <h1>About Me</h1>
@@ -73,12 +74,96 @@
                 </div>
             </div>
             
-            <p>A first-year web programming student at NSCC with a strong foundation in JavaScript, HTML, CSS, and database/network fundamentals, eager to apply knowledge and gain practical experience through an internship or co-op opportunity in web development.</p>
+            <div class="text-a">
+                <p>A first-year web programming student at NSCC with a strong foundation in JavaScript, HTML, CSS, and database/network fundamentals, eager to apply knowledge and gain practical experience through an internship or co-op opportunity in web development.</p>
+            </div>
      </div>
     </div>
-
 </section>
 
+<section id="experience">
+    <div class="pro-title">
+        <p>Explore My</p>
+        <h1>Exerprience</h1> 
+    </div>
+    <div class="pro-content">
+        <div>
+            <div>
+                <h4>Frontend Development</h4>
+            </div>
+            <div class="pro-detail">
+                <div class="edetail">
+                    <div><img src="/images/checkmark.png" alt="" class="checkmark"></div>
+                    <div><h5>HTML</h5></div>
+                </div>
+                <div class="edetail">
+                    <div><img src="/images/checkmark.png" alt="" class="checkmark"></div>
+                    <div><h5>CSS</h5></div>
+                </div>
+                <div class="edetail">
+                    <div><img src="/images/checkmark.png" alt="" class="checkmark"></div>
+                    <div><h5>JavaScript</h5></div>
+                </div>
+                <div class="edetail">
+                    <div><img src="/images/checkmark.png" alt="" class="checkmark"></div>
+                    <div><h5>SQL</h5></div>
+                </div>
+                <div class="edetail">
+                    <div><img src="/images/checkmark.png" alt="" class="checkmark"></div>
+                    <div><h5>NETWORK</h5></div>
+                </div>
+                <div class="edetail">
+                    <div><img src="/images/checkmark.png" alt="" class="checkmark"></div>
+                    <div><h5>GIT</h5></div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</section>
+
+<section id="project">
+   <div class="project-title">
+    <p>Browse My Recent</p>
+    <h1>Projects</h1>
+   </div>
+   <div class="project-content">
+        <div class="each-project">
+            <img src="/images/desktop-preview.jpg" alt="" class="pro-1">
+            <h1>Project One</h1>
+            <button class="gh"><a href="https://github.com/Kevin-ZSC/news-homepage-main">Github</a></button>
+            <button class="ld"><a href="https://kevin-zsc.github.io/news-homepage-main/">Live Demo</a></button>
+            </div>
+        <div class="each-project">
+            <img src="/images/kisspng-portable-network-graphics-computer-icons-vector-gr-clock-png-transparent-images-pictures-photos-png-5c7e9f9ccdc855.5241486715518022688429.jpg" alt="" class="pro-2">
+            <h1>Project Two</h1>
+            <button class="gh"><a href="https://github.com/Kevin-ZSC/clock">Github</a></button>
+            <button class="ld"><a href="https://kevin-zsc.github.io/clock/">Live Demo</a></button>
+        </div>
+        <div class="each-project">
+            <img src="/images/Google-Calendar-Appointments-Gear-GettyImages-1385868923.webp" alt="" class="pro-3">
+            <h1>Project Three</h1>
+            <button class="gh"><a href="https://github.com/Kevin-ZSC/month-calender">Github</a></button>
+            <button class="ld"><a href="https://kevin-zsc.github.io/month-calender/">Live Demo</a></button>
+        </div>
+    </div>
+      
+</section>
+
+<section id="contact">
+  <div>
+    <p>Get in Touch</p>
+    <h1>Contect Me</h1>
+  </div>
+  <div class="contact-info">
+    <a href="https://mail.google.com/mail/u/0/?pli=1#inbox"><img src="/images/email.png" alt="" class="email"></a>
+    <a href="https://www.linkedin.com/in/sanchen-zhang-394a332a1/"><img src="/images/linkedin.png" alt="" class="linkedin-c"></a>
+  </div>
+
+<footer>
+    <p>copyright 2023 Web. All Rights Reserved</p>
+</footer>
+</section>
     <script src="script.js"></script>
 </body>
 </html>

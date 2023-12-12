@@ -28,6 +28,8 @@
         display: block;
     }
 
+
+
     #home,#about,#project,#experience,#contact {
         max-width: 500px;
         margin-top: 50px; 
@@ -36,6 +38,10 @@
         align-items: center;
         text-align: center;
         flex-wrap: wrap;
+    }
+
+    #home {
+        margin-top:80px;
     }
     
     .section-1,.project-content,.section-1-right,.background {

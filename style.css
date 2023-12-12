@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;  
+    
 }
 
 #myAudio {
@@ -30,7 +31,6 @@ nav {
     align-items: center;
     height:17vh;
     max-width: 100%;
-
 }
 
 .nav-links {
@@ -87,7 +87,7 @@ a {
     position: absolute;
     top:100%;
     right:0;
-    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     width: auto;
     max-height: 0;
     overflow: hidden;
@@ -97,6 +97,7 @@ a {
     text-decoration: none;
     text-decoration-line: none;
     display: none;
+    margin-bottom: 30px;
 }
 
 .menu-links a:hover {

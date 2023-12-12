@@ -9,4 +9,15 @@ function toggleMenu () {
   
 }
 
+var audio = document.getElementById("myAudio");
+function playAudio() {
+    audio.play();
+}
+        document.addEventListener("click", function() {
+            playAudio(); 
+            audio.style.display= 'block';
+            document.removeEventListener("click", arguments.callee);
+            
+        });
+
 

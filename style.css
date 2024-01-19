@@ -129,7 +129,7 @@ h1 {
 }
 
 #about,#experience,#project,#contact {
-    margin-top: 100px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     gap:20px;
@@ -142,6 +142,7 @@ h1 {
     padding: 0 100px;
 }
 #home{
+   
     display: flex;
     justify-content: center;
     margin-top:100px;

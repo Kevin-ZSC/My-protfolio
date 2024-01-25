@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqurey.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Contact me</title>
 </head>
 <body>
@@ -17,6 +18,16 @@
           <a href="https://mail.google.com/mail/u/0/?pli=1#inbox"><img src="/images/email.png" alt="" class="email"></a>
           <a href="https://www.linkedin.com/in/sanchen-zhang-394a332a1/"><img src="/images/linkedin.png" alt="" class="linkedin-c"></a>
         </div>
+
+        <form action="submit.php" method="post">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br><br>
+          <input type="submit" value="Submit">
+        </form>
     </section>
 </body>
 </html>
